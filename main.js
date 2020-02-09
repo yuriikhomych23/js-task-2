@@ -42,7 +42,7 @@
 
 //task1 
 
-let ask1 = prompt('В якому році закінчилась Перша світова війна?');
+let ask1 = prompt('В якому році появився JavaScript?');
 let ask2= prompt('В якому році почалась Перша світова ?');
 let ask3 = prompt('В якому році закінчилась Друга війна?');
 let ask4 = prompt('В якому році почалась світова війна?');
@@ -52,32 +52,34 @@ let ask7 = prompt('В році закінчилась Перша світова 
 let ask8 = prompt('В якому році  Перша світоваріа війна?');
 let ask9= prompt('В якому році івазакінчилась Перша світова війна?');
 let ask10 = prompt('В якому році закінчилась Перша світова війнаfee?');
-let counter = 0;
-let i = ++counter;
 
-if (ask1 == 1914) {
-    alert(++i)
+let counter = 0;
+
+
+
+if (ask1 == 1995) {
+    ++counter;
 } else if(ask2 == 1) {
-    alert(++i)
-}else if(ask2 == 2) {
-    alert(++i)
-}else if(ask2 == 3) {
-    alert(++i)
-}else if(ask2 == 4) {
-    alert(++i)
-}else if(ask2 == 5) {
-    alert(++i)
-}else if(ask2 == 6) {
-    alert(++i)
-}else if(ask2 == 7) {
-    alert(++i)
-}else if(ask2 == 8) {
-    alert(++i)
-}else if(ask2 == 9) {
-    alert(++i)
-} else {
-    alert(i)
-}
+   ++counter;
+}else if(ask3 == 2) {
+   ++counter;
+}else if(ask4 == 3) {
+   ++counter;
+}else if(ask5 == 4) {
+   ++counter;
+}else if(ask6 == 5) {
+   ++counter;
+}else if(ask7 == 6) {
+   ++counter;
+}else if(ask8 == 7) {
+   ++counter;
+}else if(ask9 == 8) {
+   ++counter;
+}else if(ask10 == 9) {
+   ++counter;
+} 
+
+console.log('Сума ваших балів складає: ' + counter);
 
 
 
