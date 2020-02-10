@@ -42,44 +42,50 @@
 
 //task1 
 
-let ask1 = prompt('В якому році появився JavaScript?');
-let ask2= prompt('В якому році почалась Перша світова ?');
-let ask3 = prompt('В якому році закінчилась Друга війна?');
-let ask4 = prompt('В якому році почалась світова війна?');
-let ask5 = prompt('В якому році Україна стала незлежною?');
-let ask6 = prompt('В якому почалась війна з Росією');
-let ask7 = prompt('В році закінчилась Перша світова війна?');
-let ask8 = prompt('В якому році  Перша світоваріа війна?');
-let ask9= prompt('В якому році івазакінчилась Перша світова війна?');
-let ask10 = prompt('В якому році закінчилась Перша світова війнаfee?');
-
 let counter = 0;
-
-
-
+let ask1 = prompt('В якому році появився JavaScript?');
 if (ask1 == 1995) {
     ++counter;
-} else if(ask2 == 1) {
-   ++counter;
-}else if(ask3 == 2) {
-   ++counter;
-}else if(ask4 == 3) {
-   ++counter;
-}else if(ask5 == 4) {
-   ++counter;
-}else if(ask6 == 5) {
-   ++counter;
-}else if(ask7 == 6) {
-   ++counter;
-}else if(ask8 == 7) {
-   ++counter;
-}else if(ask9 == 8) {
-   ++counter;
-}else if(ask10 == 9) {
-   ++counter;
 } 
+let ask2= prompt('В якому році почалась Перша світова ?');
+if(ask2 == 1) {
+   ++counter;
+}
+let ask3 = prompt('В якому році закінчилась Друга війна?');
+if(ask3 == 2) {
+   ++counter;
+}
+let ask4 = prompt('В якому році почалась світова війна?');
 
-console.log('Сума ваших балів складає: ' + counter);
+if(ask4 == 3) {
+   ++counter;
+}
+let ask5 = prompt('В якому році Україна стала незлежною?');
+if(ask4 == 3) {
+   ++counter;
+}
+let ask6 = prompt('В якому почалась війна з Росією');
+if(ask5 == 4) {
+   counter;
+}
+let ask7 = prompt('В році закінчилась Перша світова війна?');
+
+if(ask6 == 5) {
+   ++counter;
+}
+let ask8 = prompt('В якому році  Перша світоваріа війна?');
+if(ask7 == 6) {
+   ++counter;
+}
+let ask9= prompt('В якому році івазакінчилась Перша світова війна?');
+if(ask8 == 7) {
+   ++counter;
+}
+let ask10 = prompt('В якому році закінчилась Перша світова війнаfee?');
+if(ask9 == 8) {
+   ++counter;
+}
+alert('Сума ваших балів складає: ' + counter);
 
 
 
