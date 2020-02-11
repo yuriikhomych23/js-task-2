@@ -123,7 +123,7 @@
 
 
 //task3
-// for (let i = 1; i <= 55; i++) { 
+// for (let i = 1; i <= 110; i++) { 
 //     if(i % 2) {
 //         console.log(i)
 //     }
@@ -137,9 +137,9 @@
 
 
 // task5
-// for (let i = 2; i <= 1048576; i*=2 ) {
+// for (let i = 2; i <= 2**20; i*=2 ) {
 //     console.log(i)
-// } доробити
+// } 
 
 
 
