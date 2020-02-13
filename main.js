@@ -144,11 +144,26 @@
 
 
 // task6
-for(let i = 2; i < 10000; i=2*i-1) {
-    console.log(i)
-}
+// for(let i = 2; i < 10000; i=2*i-1) {
+//     console.log(i)
+// }
 
 // task7 
- 
+//  ....
 
 // task8
+//.......
+
+
+// task while do while
+
+
+
+let ask = prompt('pass');
+
+if (pass == 1111) {
+    alert('con')
+} else  {
+    alert('ghefosg')
+}
+
